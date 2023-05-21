@@ -1,4 +1,6 @@
-export const head = {
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
   title: 'Watch - YouTube',
   description: 'Watch the best videos on YouTube',
 };
