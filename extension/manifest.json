@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Redirect",
+  "version": "1.0",
+  "description": "Redirects YouTube links to drred.xyz.",
+  "permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
